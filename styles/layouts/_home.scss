@@ -1,0 +1,14 @@
+.test {
+  @include flexbox;
+
+  height: 100vh;
+  font-size: 66px;
+
+  @include mq($md-breakpoint) {
+    font-size: 100px;
+  }
+
+  @include mq($lg-breakpoint) {
+    font-size: 200px;
+  }
+}
